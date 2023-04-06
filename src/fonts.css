@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'racing-sans-one';
+  src: url('./fonts/RacingSansOne-Regular.woff2') format('woff2'),
+      url('./fonts/RacingSansOne-Regular.woff') format('woff'),
+      url('./fonts/RacingSansOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sedgwick';
+  src: url('./fonts/SedgwickAveDisplay-Regular.woff2') format('woff2'),
+      url('./fonts/SedgwickAveDisplay-Regular.woff') format('woff'),
+      url('./fonts/SedgwickAveDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
