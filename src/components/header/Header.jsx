@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import logo from "../../assets/logo.png";
 import "./Header.scss";
 
@@ -11,13 +13,13 @@ const Header = () => {
           </div>
           <nav className="header-menu flex-row">
             <li>
-              <a href="#">about</a>
+              <Link to="/">about</Link>
             </li>
             <li>
-              <a href="#">music</a>
+              <Link to="/music">music</Link>
             </li>
             <li>
-              <a href="#">working on</a>
+              <Link to="/">working on</Link>
             </li>
           </nav>
         </div>

@@ -1,0 +1,120 @@
+@import '/src/scss/assets/vars';
+
+.about {
+
+  &-wrapper {
+
+  }
+
+  &-details {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+
+    h2 {
+      margin-bottom: 1rem;
+      text-transform: capitalize;
+      font-size: $fs-medium;
+      font-weight: 400;
+    }
+
+    .links {
+      align-items: flex-start;
+
+      a {
+        position: relative;
+        margin-top: 8px;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: red;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          right: -1rem;
+          top: 20%;
+          transform: rotate(-35deg);
+          height: 30%;
+          width: 2px;
+          background-color: red;
+        }
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+        &:hover {
+          color: $clr-whiteFaded;
+        }
+      }
+    }
+
+    .story {
+      
+      p {
+        max-width: 550px;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &-stats {
+
+    h2 {
+      margin-left: 1.5rem;
+      position: relative;
+      font-size: $fs-xl;
+      color: $clr-red;
+      text-transform: uppercase;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -1rem;
+        transform: rotate(25deg);
+        width: 5px;
+        height: 100%;
+        background-color: red;
+      }
+    }
+
+    .stats {
+      margin-top: 50px;
+      max-width: 80%;
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+
+      .title {
+        margin-bottom: 50px;
+        font-size: $fs-regular;
+
+        span {
+          margin-left: 1rem;
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        line-height: 50px;
+      }
+
+      .events {
+
+        h3 {
+          font-size: $fs-xl;
+        }
+      }
+    }
+
+  }
+}
