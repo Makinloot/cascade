@@ -1,0 +1,30 @@
+@import '/src/scss/assets/vars';
+
+.header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $clr-white;
+
+  &-logo {
+    flex: .2;
+  }
+
+  &-menu {
+    flex: .8;
+    font-size: $fs-medium;
+    text-transform: capitalize;
+
+    li {
+      margin-right: 154px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: $clr-whiteFaded;
+      }
+    }
+  }
+}

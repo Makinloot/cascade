@@ -1,9 +1,10 @@
+import Header from "./components/header/Header"
 
 function App() {
 
   return (
-    <div className="App">
-      <p>cascade boys || CASCADE BOYS</p>
+    <div className="app">
+      <Header />
     </div>
   )
 }
