@@ -1,0 +1,10 @@
+@import '/src/scss/assets/vars';
+
+.music {
+
+  &-wrapper {
+    background-image: url('../../assets/music-bg.png');
+    background-position: center;
+    background-size: contain;
+  }
+}
