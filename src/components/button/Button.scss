@@ -1,0 +1,13 @@
+@import '/src/scss/assets/vars';
+
+.button {
+  border: 6px solid $clr-red;
+  color: $clr-white;
+  font-size: 1.25rem;
+  outline: none;
+  background-color: transparent;
+  padding: 26px 37px;
+  border-radius: 65px;
+  font-family: $ff-primary;
+  cursor: pointer;
+}
