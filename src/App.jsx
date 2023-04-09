@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero"
 import Music from "./pages/music/Music"
 import About from "./pages/about/About"
 import WorkingOn from "./pages/working-on/WorkingOn"
+import Podcasts from "./pages/podcasts/Podcasts"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/music" element={<Music />} />
           <Route path="/working-on" element={<WorkingOn />} />
+          <Route path="/podcasts" element={<Podcasts />} />
         </Routes>
       </div>
     </Router>

@@ -6,6 +6,7 @@ import Button from '../../components/button/Button'
 import { popular, podcast, albumPreview, epPreview } from '../../data'
 
 import './Music.scss'
+import { Link } from 'react-router-dom'
 
 const Music = () => {
   return (
@@ -19,9 +20,9 @@ const Music = () => {
             <Row data={epPreview} title="ep review" />
           </div>
           <Row data={podcast} title="podcast series" />
-          <div className='flex-row' style={{margin: '60px 0'}}>
+          <Link to="/podcasts" className='flex-row' style={{margin: '60px 0'}}>
             <Button value="view more podcasts" />
-          </div>
+          </Link>
         </div>
       </div>
     </div>
