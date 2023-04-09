@@ -1,0 +1,40 @@
+@import '/src/scss/assets/vars';
+
+.working-on {
+
+  &-wrapper {
+    background-image: url('/src/assets/working-on-bg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 4rem;
+  }
+
+  &-item {
+    margin-top: 90px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin: 0 0 45px 0;
+      font-size: 2.25rem;
+      font-weight: 400;
+    }
+
+    .flex-row {
+      justify-content: flex-start !important;
+    }
+
+    p {
+      margin-left: 60px;
+      max-width: 554px;
+      color: $clr-red;
+      font-size: 2rem;
+    }
+
+    img {
+      max-width: 500px;
+    }
+  }
+}

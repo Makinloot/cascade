@@ -19,7 +19,7 @@ const Header = () => {
               <Link to="/music">music</Link>
             </li>
             <li>
-              <Link to="/">working on</Link>
+              <Link to="/working-on">working on</Link>
             </li>
           </nav>
         </div>
