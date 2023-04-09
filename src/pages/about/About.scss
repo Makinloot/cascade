@@ -3,7 +3,9 @@
 .about {
 
   &-wrapper {
-
+    background-image: url('../../assets/about-bg.png');
+    background-position: center;
+    background-size: cover;
   }
 
   &-details {

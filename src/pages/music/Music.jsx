@@ -20,7 +20,7 @@ const Music = () => {
           </div>
           <Row data={podcast} title="podcast series" />
           <div className='flex-row' style={{margin: '60px 0'}}>
-            <Button />
+            <Button value="view more podcasts" />
           </div>
         </div>
       </div>

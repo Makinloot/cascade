@@ -1,10 +1,10 @@
 
 import './Button.scss'
 
-const Button = () => {
+const Button = ({ value }) => {
   return (
     <button className='button'>
-      view more podcasts
+      {value}
     </button>
   )
 }
