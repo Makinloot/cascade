@@ -36,3 +36,31 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+
+  .row-title {
+    // margin-right: 1rem !important;
+    font-size: 1.25rem;
+    margin: 0 0 50px 1rem;
+    white-space: nowrap;
+  }
+
+  .row {
+
+    &-item {
+
+      img {
+        max-width: 84px;
+        height: 84px;
+        object-fit: contain;
+      }
+
+      h4 {
+        font-size: 0.875rem;
+        max-width: 80px;
+      }
+    }
+
+  }
+}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PageTitle from "../../components/page-title/PageTitle";
 
 import spain from '../../assets/spain.png'
@@ -5,6 +6,7 @@ import person from '../../assets/person.png'
 import "./About.scss";
 
 const About = () => {
+
   return (
     <div className="about">
       <PageTitle page="about" />
@@ -18,10 +20,10 @@ const About = () => {
             </div>
             <div className="links flex-col">
               <h2>links</h2>
-              <a href="#" target="_blank">soundcloud</a>
-              <a href="#" target="_blank">instagram</a>
-              <a href="#" target="_blank">twitter</a>
-              <a href="#" target="_blank">discogs</a>
+              <Link to="https://soundcloud.com/ramzi911" target="_blank">soundcloud</Link>
+              <Link to="https://www.instagram.com/cascadelive/" target="_blank">instagram</Link>
+              <Link to="/" target="_blank">twitter</Link>
+              <Link to="/" target="_blank">discogs</Link>
             </div>
             <div className="story">
               <h2>story</h2>
@@ -50,7 +52,9 @@ const About = () => {
                   <img src={person} />
                   <span>First event on RA</span>
                 </div>
-                <h3>2023</h3>
+                <div>
+                  <h3>2023</h3>
+                </div>
               </div>
 
               <div className="regions">
@@ -58,10 +62,12 @@ const About = () => {
                   <img src={person} />
                   <span>Regions most played</span>
                 </div>
-                <h3>berlin</h3>
-                <h3>amsterdam</h3>
-                <h3>london</h3>
-                <h3>munich</h3>
+                <div>
+                  <h3>berlin</h3>
+                  <h3>amsterdam</h3>
+                  <h3>london</h3>
+                  <h3>munich</h3>
+                </div>
               </div>
 
               <div className="clubs">
@@ -69,9 +75,11 @@ const About = () => {
                   <img src={person} />
                   <span>Regions most played</span>
                 </div>
-                <h3>bassiano</h3>
-                <h3>berghain</h3>
-                <h3>city club</h3>
+                <div>
+                  <h3>bassiano</h3>
+                  <h3>berghain</h3>
+                  <h3>city club</h3>
+                </div>
               </div>
 
             </div>

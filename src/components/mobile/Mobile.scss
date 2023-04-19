@@ -1,0 +1,16 @@
+@import '/src/scss/assets/vars';
+
+.mobile {
+  margin: 2rem 0;
+  position: relative;
+  justify-content: flex-start !important;
+  height: 500px;
+
+  &-object {
+    // width: 100%;
+    // position: absolute;
+    height: 100%;
+    background-color: red;
+    // background-color: green;
+  }
+}

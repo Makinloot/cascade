@@ -18,7 +18,7 @@
     text-transform: capitalize;
 
     li {
-      margin-right: 154px;
+      margin-right: 90px;
 
       &:last-of-type {
         margin-right: 0;
@@ -26,6 +26,27 @@
 
       &:hover {
         color: $clr-whiteFaded;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+
+    &-logo {
+      max-width: 90px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-menu {
+      font-size: 14px;
+
+      li {
+        margin-right: 1rem;
       }
     }
   }

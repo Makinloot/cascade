@@ -11,6 +11,7 @@
   &-details {
     justify-content: space-between !important;
     align-items: flex-start !important;
+    flex-wrap: wrap;
 
     h2 {
       margin-bottom: 1rem;
@@ -20,6 +21,7 @@
     }
 
     .links {
+      margin: 0 3rem;
       align-items: flex-start;
 
       a {
@@ -117,6 +119,73 @@
         }
       }
     }
+
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+
+    &-stats {
+      margin: 50px 0;
+      h2 {
+        font-size: $fs-regular;
+      }
+
+      .stats {
+        flex-direction: column !important;
+
+        .events {
+          h3 {
+            font-size: 2rem;
+          }
+        }
+        .events,
+        .regions,
+        .clubs {
+          margin-top: 2rem;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          margin-left: 42px;
+        }
+
+        .title {
+          font-size: 1rem;
+          span {
+            max-width: 45px;
+          }
+        }
+      }
+    }
+
+    &-details {
+      justify-content: space-around !important;
+      justify-content: flex-start !important;
+      gap: 1rem;
+
+      .links {
+  
+        a {
+          font-size: 1rem;
+
+          &::before {
+            display: none;
+          }
+        }
+      }
+
+      .story {
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
 
   }
 }

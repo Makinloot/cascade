@@ -2,8 +2,6 @@
 
 .hero {
   position: relative;
-  // background-image: url('../../assets/hero.png');
-  // background-position: center;
 
   .container {
     display: flex;
@@ -38,6 +36,31 @@
 
     img {
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+
+    .container {
+      height: 390px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &-wrapper {
+      padding: 0;
+      width: 100%;
+      justify-content: space-between !important;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    &-image {
+      max-width: 84px;
     }
   }
 }
