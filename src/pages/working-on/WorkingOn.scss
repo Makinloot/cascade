@@ -38,3 +38,32 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .working-on {
+
+    &-item {
+
+      h2 {
+        font-size: 1.25rem;
+        text-align: center;
+      }
+
+      .flex-row {
+        flex-direction: column !important;
+        width: 100%;
+      }
+
+      p {
+        margin: 35px 0;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+      }
+
+      img {
+        max-width: 260px;
+      }
+    }
+  }
+}
