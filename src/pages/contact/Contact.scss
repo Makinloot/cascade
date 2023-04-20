@@ -1,0 +1,92 @@
+@import '/src/scss/assets/vars';
+
+.contact {
+  
+  &-email,
+  &-phone {
+    margin-top: 100px;
+    font-size: 2rem;
+    color: $clr-red;
+
+    span {
+      color: $clr-white;
+      text-decoration: underline;
+      margin-left: 1rem;
+    }
+  }
+
+  &-phone {
+    margin-top: 50px;
+  }
+
+  &-form {
+    margin-top: 290px;
+    color: $clr-red;
+    max-width: 580px;
+
+    &-title {
+      font-size: 3rem;
+    }
+
+    &-inputs {
+      margin-top: 72px;
+      display: grid;
+      grid-template-areas: 
+        'firstname lastname'
+        'email email'
+        'message message'
+      ;
+      column-gap: 22px;
+
+      input,
+      textarea {
+        color: $clr-red;
+        padding: 17px 6px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: $fs-medium;
+        font-family: $ff-primary;
+        width: 100%;
+        resize: none;
+      }
+
+      #first-name {
+        grid-area: firstname;
+        // margin-right: 28px;
+      }
+      #last-name {
+        grid-area: lastname;
+      }
+      #email {
+        grid-area: email;
+        margin: 32px 0 22px;
+      }
+      #textarea {
+        grid-area: message;
+      }
+      ::placeholder {
+        color: $clr-red;
+      }
+    }
+
+    .submit-btn {
+      justify-content: flex-end !important;
+
+      input[type=submit] {
+        color: $clr-red;
+        font-size: $fs-medium;
+        font-family: $ff-primary;
+        padding: 16px 43px;
+        outline: none;
+        border: none;
+        background-color: rgba(54, 0, 0, 1);
+        border-radius: 17px;
+        margin-top: 22px;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+}

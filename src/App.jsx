@@ -5,6 +5,7 @@ import Music from "./pages/music/Music"
 import About from "./pages/about/About"
 import WorkingOn from "./pages/working-on/WorkingOn"
 import Podcasts from "./pages/podcasts/Podcasts"
+import Contact from "./pages/contact/Contact"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/working-on" element={<WorkingOn />} />
           <Route path="/podcasts" element={<Podcasts />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
