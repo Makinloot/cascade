@@ -2,15 +2,9 @@ import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import MobileMode from "./MobileMode"
 import './Mobile.scss'
+import { Link } from 'react-router-dom'
 
 const Mobile = () => {
-
-  // const gltf = useLoader(GLTFLoader, '/src/assets/3d/scene.gltf');
-  // const meshRef = useRef()
-
-  // useFrame(({ clock }) => {
-  //   meshRef.current.rotation.x += clock * 1
-  // })
 
   return (
     <div className="mobile flex-row">
@@ -21,7 +15,12 @@ const Mobile = () => {
           </Suspense>
         </Canvas>
       </div>
-      {/* <div>s</div> */}
+      <div className='mobile-details flex-col'>
+        <Link to="https://soundcloud.com/ramzi911/cascade-selector-series-13" target='_blank'>
+          Cascade Selector Series 13
+        </Link>
+        <span>best months podcast by techno artist ramzi b2b iv</span>
+      </div>
     </div>
   )
 }
