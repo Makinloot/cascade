@@ -3,6 +3,7 @@
 .row-title {
   position: relative;
   margin-bottom: 50px;
+  margin-left: 1rem;
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -37,10 +38,30 @@
   }
 }
 
+@media (max-width: 1024px) {
+
+  .row-title {
+    font-size: $fs-medium;
+  }
+
+  .row {
+
+    &-item {
+
+      img {
+        max-width: 200px;
+      }
+
+      h4 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 480px) {
 
   .row-title {
-    // margin-right: 1rem !important;
     font-size: 1.25rem;
     margin: 0 0 50px 1rem;
     white-space: nowrap;

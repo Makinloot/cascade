@@ -41,3 +41,35 @@
   }
 
 }
+
+@media (max-width: 1024px) {
+  .slider {
+
+    img {
+      max-width: 150px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+
+    &-title {
+      font-size: 1.25rem;
+    }
+
+    img {
+      max-width: 71px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 19px;
+      height: 19px;
+
+      &::after {
+        font-size: 8px;
+      }
+    }
+  }
+}

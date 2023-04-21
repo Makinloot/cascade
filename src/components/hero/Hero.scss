@@ -40,7 +40,16 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
+  .hero {
+
+    &-image {
+      max-width: 200px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
   .hero {
 
     .container {

@@ -31,7 +31,24 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
+  .header {
+
+    &-menu {
+      font-size: 18px;
+    }
+
+    &-logo {
+      max-width: 200px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
   .header {
 
     &-logo {

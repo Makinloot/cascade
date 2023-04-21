@@ -19,3 +19,31 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .podcasts {
+
+    &-paragraph {
+      font-size: $fs-medium;
+    }
+
+    &-podcast {
+
+      h3 {
+        font-size: $fs-medium;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .podcasts {
+
+    &-podcast {
+
+      h3 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

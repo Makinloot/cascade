@@ -123,6 +123,33 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .about {
+
+    &-details {
+      justify-content: space-around !important;
+    }
+
+    &-stats {
+      margin: 4rem 0;
+
+      h2 {
+        font-size: calc($fs-xl - 1rem);
+      }
+
+      .stats {
+        justify-content: center !important;
+        max-width: 100%;
+
+        .regions {
+          margin: 0 2rem;
+        }
+      }
+    }
+    
+  }
+}
+
 @media (max-width: 480px) {
   .about {
 
