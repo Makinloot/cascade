@@ -12,7 +12,7 @@ const Contact = () => {
             Email: <span>ramzibabluani@icloud.com</span>
           </div>
           <div className="contact-phone">
-            Phone: <span>+999 99 99 99</span>
+            Phone: <span>+34 624 855823</span>
           </div>
           <form action='#' className="contact-form">
             

@@ -22,8 +22,7 @@ const About = () => {
               <h2>links</h2>
               <Link to="https://soundcloud.com/ramzi911" target="_blank">soundcloud</Link>
               <Link to="https://www.instagram.com/cascadelive/" target="_blank">instagram</Link>
-              <Link to="/" target="_blank">twitter</Link>
-              <Link to="/" target="_blank">discogs</Link>
+              <Link to="https://www.youtube.com/@cascaderecords4122" target="_blank">youtube</Link>
             </div>
             <div className="story">
               <h2>story</h2>
@@ -52,9 +51,9 @@ const About = () => {
                   <img src={person} />
                   <span>First event on RA</span>
                 </div>
-                <div>
+                {/* <div>
                   <h3>2023</h3>
-                </div>
+                </div> */}
               </div>
 
               <div className="regions">
@@ -62,24 +61,24 @@ const About = () => {
                   <img src={person} />
                   <span>Regions most played</span>
                 </div>
-                <div>
+                {/* <div>
                   <h3>berlin</h3>
                   <h3>amsterdam</h3>
                   <h3>london</h3>
                   <h3>munich</h3>
-                </div>
+                </div> */}
               </div>
 
               <div className="clubs">
                 <div className="title flex-row">
                   <img src={person} />
-                  <span>Regions most played</span>
+                  <span>clubs most played</span>
                 </div>
-                <div>
+                {/* <div>
                   <h3>bassiano</h3>
                   <h3>berghain</h3>
                   <h3>city club</h3>
-                </div>
+                </div> */}
               </div>
 
             </div>

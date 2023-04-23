@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import './Row.scss'
 
 const Row = ({ data, title }) => {
@@ -7,10 +7,10 @@ const Row = ({ data, title }) => {
       <h3 className='row-title'>{title}</h3>
       <div className="row flex-row">
         {data && data.map(item => (
-          <div className="row-item flex-col" key={item.id}>
+          <Link to={item.link} target='_blank' className="row-item flex-col" key={item.id}>
             <img src={item.cover} />
             <h4>{item.title}</h4>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

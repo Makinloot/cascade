@@ -14,7 +14,7 @@ const MobileMode = () => {
 
   return (
     <mesh ref={meshRef} position={[-1.25, -38, -65]}>
-      <ambientLight />
+      <ambientLight intensity={3} />
       <primitive object={gltf.scene} scale={0.8} />
     </mesh>
   );

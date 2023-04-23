@@ -15,10 +15,11 @@ const Music = () => {
       <div className="container">
         <div className="music-wrapper">
           <Row data={popular} title="popular" />
-          <div className="preview-container flex-row" style={{justifyContent: 'flex-start', gap: 80, margin: '150px 0'}}>
+          {/* <div className="preview-container flex-row" style={{justifyContent: 'flex-start', gap: 80, margin: '150px 0'}}>
             <Row data={albumPreview} title="album review" />
             <Row data={epPreview} title="ep review" />
-          </div>
+          </div> */}
+          <hr style={{margin: '6rem 0', opacity: 0}} />
           <Row data={podcast} title="podcast series" />
           <Link to="/podcasts" className='flex-row' style={{margin: '60px 0'}}>
             <Button value="view more podcasts" />
