@@ -4,7 +4,7 @@ import { useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const MobileMode = () => {
-  const gltf = useLoader(GLTFLoader, '../public/mobile/scene.gltf');
+  const gltf = useLoader(GLTFLoader, '../public/scene.gltf');
   const meshRef = useRef();
 
   useFrame(() => {
