@@ -2,10 +2,9 @@ import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Vector3 } from "three";
 
 const MobileMode = () => {
-  const gltf = useLoader(GLTFLoader, "/src/assets/3d/scene.gltf");
+  const gltf = useLoader(GLTFLoader, '/src/assets/3d/scene.gltf');
   const meshRef = useRef();
 
   useFrame(() => {
