@@ -16,9 +16,7 @@ const WorkingOn = () => {
             <div className="flex-row">
               <img src={albumImg} />
               <p>
-                lorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem
-                ipsum lorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem
-                ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsum
+              At the beginning of 2023, as a result of the changes in records, IV and Ramzi's joint and solo tracks went into an active production phase through various platforms, which gave the artists new inspirations, this also led to the development of visual and graphic design.
               </p>
             </div>
           </div>
@@ -28,9 +26,7 @@ const WorkingOn = () => {
             <div className="flex-row">
               <img src={tracksImg} />
               <p>
-                lorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem
-                ipsum lorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem
-                ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsum
+              The label's resident artists present albums of their own creations, techno-ambient sounds, each album a diverse synthesis of muffled acid sounds and dark ambient backdrops, laced with merciless industrial kicks.With great respect, we must also mention that in the future plans of the label, for its development and popularization in the techno culture, it is necessary to create and release more albums within the framework of collaboration with young and well-experienced artists.
               </p>
             </div>
           </div>

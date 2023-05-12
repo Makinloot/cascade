@@ -3,7 +3,8 @@ import { Suspense } from 'react'
 import MobileMode from "./MobileMode"
 import './Mobile.scss'
 import { Link } from 'react-router-dom'
-
+import MobileBackground from './MobileBackground'
+import mp3 from '../../../public/ramzi.mp3'
 const Mobile = () => {
 
   return (
@@ -12,6 +13,7 @@ const Mobile = () => {
         <Canvas>
           <Suspense>
             <MobileMode />
+            {/* <MobileBackground /> */}
           </Suspense>
         </Canvas>
       </div>
@@ -20,6 +22,9 @@ const Mobile = () => {
           Cascade Selector Series 13
         </Link>
         <span>best months podcast by techno artist ramzi b2b iv</span>
+        <audio controls>
+          <source src={mp3} type='audio/mpeg' />
+        </audio>
       </div>
     </div>
   )
