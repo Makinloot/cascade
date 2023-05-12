@@ -8,7 +8,7 @@ const Podcasts = () => {
       <div className="container">
         <p className="podcasts-paragraph">
           The weekly Podcast features an exclusive mix of electronic music from
-          cascade selector series Mixed by Ramzi B2B iv
+          cascade selector series Mixed by Ramzi B2B IV
         </p>
         <div className="podcasts-podcast">
           <h3>/ this months podcast</h3>

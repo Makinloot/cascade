@@ -21,7 +21,7 @@ const Mobile = () => {
         <Link to="https://soundcloud.com/ramzi911/cascade-selector-series-13" target='_blank'>
           Cascade Selector Series 13
         </Link>
-        <span>best months podcast by techno artist ramzi b2b iv</span>
+        <span>best months podcast by techno artist ramzi b2b IV</span>
         <audio controls>
           <source src={mp3} type='audio/mpeg' />
         </audio>

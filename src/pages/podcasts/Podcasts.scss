@@ -20,6 +20,17 @@
   }
 }
 
+@media (max-width: 1120px) {
+  .podcasts {
+
+    &-slider {
+      img {
+        width: 130px !important;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .podcasts {
 
@@ -31,6 +42,26 @@
 
       h3 {
         font-size: $fs-medium;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .podcasts {
+    
+    &-slider {
+      margin: 25rem 0 0;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .podcasts {
+    &-slider{
+
+      img {
+        width: 100px;
       }
     }
   }
