@@ -4,7 +4,7 @@ import MobileMode from "./MobileMode"
 import './Mobile.scss'
 import { Link } from 'react-router-dom'
 import MobileBackground from './MobileBackground'
-import mp3 from '../../../public/ramzi.mp3'
+import mp3 from '/ramzi.mp3'
 const Mobile = () => {
 
   return (
