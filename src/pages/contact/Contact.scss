@@ -8,6 +8,10 @@
     font-size: 2rem;
     color: $clr-red;
 
+    @media (max-width: 480px) {
+      font-size: 1rem;
+    }
+
     span {
       color: $clr-white;
       text-decoration: underline;
@@ -23,6 +27,10 @@
     margin-top: 290px;
     color: $clr-red;
     max-width: 580px;
+
+    @media (max-width: 480px) {
+      margin-top: 100px;
+    }
 
     &-title {
       font-size: 3rem;
@@ -67,6 +75,10 @@
       }
       ::placeholder {
         color: $clr-red;
+
+        @media (max-width: 480px) {
+          font-size: 1.2rem;
+        }
       }
     }
 
